@@ -14,7 +14,6 @@ const state = reactive ({
 });
 const submit = async () => {
     const res = await login(state.form);
-    console.log("데이터 뭐 날라옴?",res.data)
 
     switch(res.status) {
         case 200 :
