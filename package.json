@@ -1,5 +1,5 @@
 {
-  "name": "rainbow-academic-fe",
+  "name": "vue-uni",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,14 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.10.0",
     "pinia": "^3.0.3",
+=======
+    "@vue/compiler-sfc": "^3.5.17",
+    "axios": "^1.10.0",
+    "bootstrap-vue-3": "^0.5.1",
+    "jquery": "^3.7.1",
+    "pinia": "^2.1.7",
+>>>>>>> f78b22261a1c9a77b5331792dc13d77e6653e2e1
     "vue": "^3.5.17",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.0",
-    "vite": "^7.0.0",
-    "vite-plugin-vue-devtools": "^7.7.7"
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.89.2",
+    "vite": "^5.3.1"
   }
 }

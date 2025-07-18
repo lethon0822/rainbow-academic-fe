@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import AttendanceInput from '../views/AttendanceInput.vue'; // 출결 입력 화면만 사용
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
